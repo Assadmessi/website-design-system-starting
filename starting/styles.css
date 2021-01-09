@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+html{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header{
+    width: 37.813rem;
+    font-size: 2.375rem;
+    margin-top: 1.563rem;
+}
+
+.container{
+    width: 64.313rem;
+    /* height: 19.375rem; */
+    border: .5px solid gray;
+    margin-left: 7.188rem;
+    margin-top: 1.25rem;
+    text-align: left;
+}
+
+.container h3{
+    font-size: 1.563rem;
+    padding-top: 1.25rem;
+    padding-left: 0.5rem;
+}
+
+.blue {
+    background-color: #2d5dcc;
+    width: 20.625rem;
+    height: 5.938rem;
+    margin-left: 0.6rem;
+    margin-top: 1.563rem;
+    text-align: center;
+    color: white;
+}
+
+.blue p{
+    padding-top: 1.25rem;
+}
+
+.pink{
+    background-color: #d957d9;
+    width: 20.625rem;
+    height: 5.938rem;
+    margin-left: 0.6rem;
+    margin-top: 1.563rem;
+    text-align: center;
+    /* color: white; */
+    position: relative;
+    left: 20.938rem;
+    bottom: 7.5rem;
+}
+
+.pink p{
+    padding-top: 1.25rem;
+}
+
+.green{
+    background-color: #4fe0b0;
+    width: 20.625rem;
+    height: 5.938rem;
+    margin-left: 0.6rem;
+    margin-top: 1.563rem;
+    text-align: center;
+    /* color: white; */
+    position: relative;
+    left: 41.938rem;
+    bottom: 15rem;
+}
+
+.green p {
+    padding-top: 1.25rem;
+}
+
+.beige{
+    background-color: #efd9ca   ;
+    width: 20.625rem;
+    height: 5.938rem;
+    margin-left: 0.6rem;
+    margin-top: 1.563rem;
+    text-align: center;
+    /* color: white; */
+    position: relative;
+    bottom: 15rem;   
+}
+
+.beige p{
+    padding-top: 1.25rem;
+}
+
+.source{
+    margin-top: 2.188rem;
+    font-family: 'Source Code Pro', monospace;
+    float: left;
+    margin-left: 0.5rem;
+}
+
+.source h4, .nunito h4, .poppins h4 {
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+.nunito{
+    position: relative;
+    top: 2.375rem;
+    left: 1.875rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.poppins{
+    clear: both;
+    margin: 4rem 0 1.563rem 0.563rem;
+    font-family: 'Poppins', sans-serif;
+}
